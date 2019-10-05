@@ -223,16 +223,17 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #292A30;
-  color: #F8F8F2;
+  color: #b9c1ca;
 }
 
 .ace_cursor {
-  opacity: 1 !important;
-  border-left: 1px solid !important;
+  opacity: 0.8 !important;
+  border-left: 2px solid !important;
+  color: red
 }
 
 .ace_marker-layer .ace_selection {
-  background: #646f82;
+  background: rgba(255, 255, 255, .15);
 }
 
 .ace_selection.ace_start {
@@ -245,8 +246,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid #3B3A32;
-  border-radius: 3px !important;
+  border: 1px solid rgba(255, 255, 255, .5);
 }
 
 .ace_marker-layer .ace_active-line {
@@ -330,7 +330,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAW
 
 .ace_fold {
   background-color: #FD7CB2;
-  border-color: #F8F8F2;
+  border-color: #b9c1ca;
 }
 
 .ace_invisible {
@@ -626,8 +626,12 @@ iframe.gwt-Frame {
   border-radius: 3px 3px 0px 0px;
 }
 
-.GD15MCFCFK.gwt-Label, .gwt-TabLayoutPanelContentContainer td {
+.GD15MCFCFK.gwt-Label .gwt-TabLayoutPanelContentContainer {
   color: white !important;
+} 
+
+td {
+  color: #C4C8C6 !important;
 }
 
 /*hyperlinks at the bottom of some of the settings and in R Help and file links in commit page */
@@ -658,7 +662,7 @@ div .gwt-Label.GD15MCFCF3 {
 }
 
 .ace_keyword.ace_operator {
-  color: #FD7CB2;
+  color: #61AFEF;
 
 }
 
@@ -667,17 +671,12 @@ div .gwt-Label.GD15MCFCF3 {
 }
 
 .ace_constant.ace_language {
-  color: #A29AEC;
+  color: #E5C07B;
 
 }
 
-.ace_constant.ace_numeric {
-  color: #A29AEC;
-
-}
-
-.ace_constant.ace_character {
-  color: #A29AEC;
+.ace_constant.ace_numeric .ace_constant.ace_character {
+  color: #E5C07B;
 
 }
 
@@ -691,12 +690,12 @@ div .gwt-Label.GD15MCFCF3 {
 }
 
 .ace_constant.ace_other {
-  color: #A29AEC;
+  color: #E5C07B;
 
 }
 
 .ace_support.ace_type {
-  color: #F8F8F2;
+  color: #b9c1ca;
 
 }
 
@@ -722,7 +721,7 @@ div .gwt-Label.GD15MCFCF3 {
 }
 
 .ace_string {
-  color: #FD8273;
+  color: #98C379;
 
 }
 
@@ -733,21 +732,20 @@ div .gwt-Label.GD15MCFCF3 {
 }
 
 .ace_variable {
-  color: #F8F8F2;
-
+  color: #b9c1ca;
 }
 
 .ace_variable.ace_parameter {
   color: #FFFFFF;
-
 }
+
 .nocolor.ace_editor .ace_line span {
-  color: white !important;
+  color: 0 !important;
 }
 .ace_bracket {
   margin: 0 !important;
   border: 0 !important;
-  background-color: rgb(254, 249, 55);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 .ace_marker-layer .ace_foreign_line {
   position: absolute;
@@ -770,7 +768,7 @@ div .gwt-Label.GD15MCFCF3 {
 }
 .terminal {
   background-color: #292a30;
-  color: #f8f8f2;
+  color: #b9c1ca;
   font-feature-settings: "liga" 0;
   position: relative;
   user-select: none;
@@ -800,7 +798,7 @@ div .gwt-Label.GD15MCFCF3 {
   overflow-y: scroll;
 }
 .xtermInvertColor { color: #292a30; }
-.xtermInvertBgColor { background-color: #f8f8f2; }
+.xtermInvertBgColor { background-color: #b9c1ca; }
 .xtermBold { font-weight: bold; }
 .xtermUnderline { text-decoration: underline; }
 .xtermBlink { text-decoration: blink; }
@@ -1404,8 +1402,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAABh
 }
 
 span.ace_paren.ace_keyword.ace_operator {
-  color: rgb(160,160,160) !important;
-  font-weight: bold;
+  color: #FD7CB2 !important;
 }
 
 
@@ -1459,4 +1456,5 @@ span.ace_paren.ace_keyword.ace_operator {
 .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars.GD15MCFCEVB ::-webkit-scrollbar-thumb {
   background: rgb(35, 35, 35);
 }
+
 
