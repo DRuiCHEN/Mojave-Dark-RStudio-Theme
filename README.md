@@ -20,7 +20,7 @@ Mojave Dark              |  Xcode
 :-------------------------:|:-------------------------:
 <img src="https://github.com/patrickshox/Mojave-Dark-RStudio-Theme/blob/master/Demo%20Images%20and%20Gifs/Mojave%20Dark%20Fonts%20and%20Colors.png">   |  <img src="https://github.com/patrickshox/Mojave-Dark-RStudio-Theme/blob/master/Demo%20Images%20and%20Gifs/Xcode%20Fonts%20and%20Colors.png"> 
 
-## Installation Options
+## Installation (version by the original author @patrickshox)
 ### Via the RStudio Console (Reccomended):
 In RStudio Preferences > Appearance, **set the theme to Modern or Sky**. Currently, Mojave Dark doesn't work when the RStudio theme is set to Classic. Then, run the snippet in the RStudio console to install and apply Mojave Dark.
 ```
