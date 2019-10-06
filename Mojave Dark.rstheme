@@ -631,10 +631,6 @@ iframe.gwt-Frame {
   color: white !important;
 } 
 
-td {
-  color: #C4C8C6 !important;
-}
-
 /*hyperlinks at the bottom of some of the settings and in R Help and file links in commit page */
 .rstudio-HyperlinkLabel, gwt-Anchor {
   color: rgb(67,137,211) !important
@@ -767,6 +763,11 @@ div .gwt-Label.GD15MCFCF3 {
 .ace_console_error {
   background-color: #535457;
 }
+
+#rstudio_console_output .ace_keyword {
+  color: hsla(207, 31%, 59%, 1);
+}
+
 .terminal {
   background-color: #292a30;
   color: #b9c1ca;
@@ -1457,11 +1458,12 @@ span.ace_paren.ace_keyword.ace_operator {
 
 /* scrollbars */
 ::-webkit-scrollbar {
-  height: calc(17px * 10 / 14) !important;
+  height: calc(8px) !important;
+  width: calc(8px);
 }
 ::-webkit-scrollbar-thumb {
   border: none !important;
-  border-radius: 0 !important;
+  border-radius: 3px !important;
   background-color: rgba(121, 121, 121, 0.18) !important;
 }
 
