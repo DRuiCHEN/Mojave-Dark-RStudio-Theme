@@ -23,13 +23,13 @@
 
 /*Markup viewer*/
 iframe.gwt-Frame.ace_editor_theme:not([src="about:blank"]) {
-  filter: invert(100%)
+  filter: invert(87%)
 }
 
 /*Markup viewer on hover*/
-iframe.gwt-Frame.ace_editor_theme:hover {
+/*iframe.gwt-Frame.ace_editor_theme:hover {
   filter: invert(0%)
-}
+}*/
 
 .GD15MCFCGPD {
   box-shadow: inset 0 0 4px 0px black;
@@ -38,18 +38,18 @@ iframe.gwt-Frame.ace_editor_theme:hover {
 }
 
 /*Plots viewer*/
-iframe#rstudio_plot_image_frame {
+/*iframe#rstudio_plot_image_frame {
   mix-blend-mode: multiply;
-}
+}*/
 /* Plots viewer on hover*/
-div.ace_editor_theme:hover iframe#rstudio_plot_image_frame {
+/*div.ace_editor_theme:hover iframe#rstudio_plot_image_frame {
   mix-blend-mode: normal;
 }
 
 .GD15MCFCPFD {
     border: none;
     background-color: inherit;
-}
+}*/
 
 /*Dropdown menus for the buttons on the home page ie not selects in settings*/
 .gwt-DecoratedPopupPanel.themedPopupPanel .popupMiddleCenter {
@@ -189,7 +189,7 @@ table.GD15MCFCBMB {
 
 /*empty tab space*/
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs, .rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_minimizedWindowObject .rstheme_center, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-track, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-corner, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-track, .rstudio-themes-flat .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-corner, .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-track, .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-corner {
-  background: rgba(37,37,37);
+  background: rgb(37, 37, 37);
   color: rgb(160, 160, 160)
 }
 
@@ -1402,7 +1402,7 @@ img[src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAABh
 }
 
 span.ace_paren.ace_keyword.ace_operator {
-  color: #FD7CB2 !important;
+  color: #d27984 !important;
 }
 
 
@@ -1456,5 +1456,3 @@ span.ace_paren.ace_keyword.ace_operator {
 .rstudio-themes-flat.rstudio-themes-dark-menus .rstudio-themes-scrollbars.GD15MCFCEVB ::-webkit-scrollbar-thumb {
   background: rgb(35, 35, 35);
 }
-
-
