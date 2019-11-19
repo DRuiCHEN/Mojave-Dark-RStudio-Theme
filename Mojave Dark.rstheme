@@ -675,7 +675,15 @@ div .gwt-Label.GD15MCFCF3 {
   color: white !important;
 }
 
-.ace_constant.ace_language {
+.ace_constant {
+  color: #E5C07B;
+}
+
+.ace_constant.ace_numeric {
+  color: #D2945D;
+}
+
+/*.ace_constant.ace_language {
   color: #E5C07B;
 
 }
@@ -683,7 +691,7 @@ div .gwt-Label.GD15MCFCF3 {
 .ace_constant.ace_numeric .ace_constant.ace_character {
   color: #E5C07B;
 
-}
+}*/
 
 .ace_heading {
      color: rgb(103,183,249);
